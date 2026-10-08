@@ -6,8 +6,8 @@
 
 ## 📁 Трекер прогресса по дням обучения
 
-* [x] [День 01 - Введение в Agile, Waterfall и V-Модель](manual-qa/day-01.md)
-* [ ] [День 02 - Роли и митинги в Scrum](manual-qa/day-02.md)
+* [x] [День 01 - Введение в Agile, Waterfall, V-Model and SDLC](manual-qa/day-01.md)
+* [х] [День 02 - Роли и митинги в Scrum](manual-qa/day-02.md)
 * [ ] [День 03 - Интерфейс и настройка Jira Software](manual-qa/day-03.md)
 * [ ] [День 04 - Тестирование требований, User Story и Acceptance Criteria](manual-qa/day-04.md)
 * [ ] [День 05 - Техники оценки задач и метрики Agile](manual-qa/day-05.md)
