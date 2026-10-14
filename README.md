@@ -11,7 +11,7 @@
 * [x] [День 03 - Интерфейс и настройка Jira Software](manual-qa/day-03.md)
 * [x] [День 04 - Тестирование требований, User Story и Acceptance Criteria](manual-qa/day-04.md)
 * [x] [День 05 - Техники оценки задач и метрики Agile](manual-qa/day-05.md)
-* [ ] [День 06 - Базовая терминология QA](manual-qa/day-06.md)
+* [x] [День 06 - Базовая терминология QA](manual-qa/day-06.md)
 * [ ] [День 07 - Принципы тестирования и STLC](manual-qa/day-07.md)
 * [ ] [День 08 - Виды тестирования и нагрузка](manual-qa/day-08.md)
 * [ ] [День 09 - Базовый тест-дизайн (EP & BVA)](manual-qa/day-09.md)
