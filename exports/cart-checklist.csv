@@ -1,0 +1,14 @@
+v2.id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases,parameters,is_muted
+,,,,,,,,,,,,,,,,,,,,1,,"ST-01: Добавление в корзину",1
+,,,,,,,,,,,,,,,,,,,,2,,"ST-02: Отображение элементов",1
+,,,,,,,,,,,,,,,,,,,,3,,"ST-03: Управление количеством",1
+,,,,,,,,,,,,,,,,,,,,4,,"ST-04: Удаление и пересчет",1
+1,"Добавление единицы товара из каталога / карточки товара","Связь требований с Jira: SHOP-1.AC-1","Пользователь авторизован",,,high,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,1,,"ST-01: Добавление в корзину",,,no
+2,"Обновление счетчика товаров в шапке сайта в реальном времени",,"Товар добавлен в корзину",,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,1,,"ST-01: Добавление в корзину",,,no
+3,"Наличие и корректность UI-элементов (фото, название, цена, удаление)","Связь требований с Jira: SHOP-1.AC-2","В корзине есть 1 товар",,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,2,,"ST-02: Отображение элементов",,,no
+4,"Изменение количества товара кнопками + и - в диапазоне 2-9 штук","Связь требований с Jira: SHOP-1.AC-3","В корзине 1 товар",,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,3,,"ST-03: Управление количеством",,,no
+5,"Проверка нижней границы переключателя: значение = 1 (кнопка - блокируется)","Связь требований с Jira: SHOP-1.AC-3",,,,medium,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,3,,"ST-03: Управление количеством",,,no
+6,"Проверка верхней границы переключателя: значение = 10 (кнопка + блокируется)","Связь требований с Jira: SHOP-1.AC-4","В корзине 10 товаров",,,high,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,3,,"ST-03: Управление количеством",,,no
+7,"Ручной ввод невалидного количества в инпут (0, 11, отрицательные, буквы)","Связь требований с Jira: SHOP-1.AC-3","В корзине 1 товар",,,low,normal,other,negative,is-not-automated,actual,no,e2e,classic,,,,,,3,,"ST-03: Управление количеством",,,no
+8,"Удаление товара кнопкой-иконкой ""Корзина""","Связь требований с Jira: SHOP-1.AC-5",,,,high,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,4,,"ST-04: Удаление и пересчет",,,no
+9,"Динамичный пересчет ""Итого"" при изменении состава / количества товаров","Связь требований с Jira: SHOP-1.AC-2, AC-5","В корзине > 1 товара",,,high,normal,functional,positive,is-not-automated,actual,no,e2e,classic,,,,,,4,,"ST-04: Удаление и пересчет",,,no
